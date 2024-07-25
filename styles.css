@@ -1,0 +1,162 @@
+body {
+    /* background-image: url(https://static.tnn.in/thumb/msid-101541951,thumbsize-182758,width-1280,height-720,resizemode-75/101541951.jpg); */
+    /* background-image: url(https://lms.bennett.edu.in/theme/image.php/lambda/theme/1693831678/page_bg/page_bg_blur02); */
+    background-image: url(https://static.toiimg.com/thumb/msid-91631865,width-1280,height-720,resizemode-4/91631865.jpg);
+    /* background-image: url(https://www.reviewadda.com/assets/uploads/article_images/Bennet_University_Noida.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100%; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 26%;
+    height: 700px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#section1 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
+
+#section2 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img {
+    width: 63%;
+}
+
+.fcolor {
+    color: rgb(73, 71, 71);
+    font-weight: bold;
+}
+.fcolor2 {
+    margin-bottom: 3em;
+    font-weight: 100;
+    color: hsla(0, 0%, 52%, 0.907);
+    font-size: 0.9em;
+}
+
+#tech {
+    font-size: 1.8em;
+}
+
+#divtop {
+    margin-top: 3.2em;
+    margin-bottom: 4em;
+}
+
+#div2 {
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+#div3 {
+    margin-bottom: 0.9em;
+}
+
+#tech {
+    margin-bottom: 0.6em;
+}
+
+#session {
+    background-color: rgb(246, 211, 211);
+    padding: 1em;
+    color: rgb(151, 63, 63);
+}
+
+#divend {
+    width: 100%;
+    padding: 1em 0;
+    background-color: #da2032;
+    color: white;
+}
+
+input {
+    width: 88%;
+    height: 3em;
+    border: 1px solid rgb(190, 184, 184);
+    border-left: 2px solid rgb(146, 145, 145);
+    border-radius: 0.3em;
+}
+
+input::selection {
+    border-radius: 10px;
+}
+
+#inp1 {
+    margin-top: 1.7em;
+    margin-bottom: 0;
+    margin-bottom: 0.6em;
+}
+
+#inp2 {
+    margin-bottom: 0.7em;
+}
+
+#bt1 {
+    background: none;
+    border: 1px solid black;
+    align-self: flex-start;
+    margin-left: 1.1em;
+    font-size: 1.2em;
+    background-color: rgb(198, 12, 12);
+    padding: 0.6em;
+    border-radius: 0.3em;
+    color: white;
+    transition: 0.2s;
+    margin-bottom: 1em;
+}
+
+#bt2 {
+    background: none;
+    border: none;
+    /* position: relative;
+    right: 1em; */
+    margin-right: 1.2em;
+    margin-bottom: 1.7em;
+    color: rgb(236, 203, 15);
+    font-size: 0.9em;
+}
+
+#btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bt1:hover {
+    background-color: rgb(48, 48, 118);
+}
